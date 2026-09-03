@@ -1,0 +1,9 @@
+pattern,command
+open_hand,START
+closed_fist,STOP
+thumbs_up,YES
+thumbs_down,NO
+index_point,NEXT
+two_fingers,PREVIOUS
+peace_sign,PAUSE
+ok_sign,SELECT
