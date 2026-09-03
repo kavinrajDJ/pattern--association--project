@@ -1,0 +1,31 @@
+SIGN LANGUAGE PATTERN ASSOCIATION
+=================================
+Number of training pairs: 8
+
+Learned Pattern Associations
+----------------------------
+open_hand       -> START
+closed_fist     -> STOP
+thumbs_up       -> YES
+thumbs_down     -> NO
+index_point     -> NEXT
+two_fingers     -> PREVIOUS
+peace_sign      -> PAUSE
+ok_sign         -> SELECT
+
+New Input
+---------
+Pattern : thumbs_up
+Command : YES
+
+Association Check
+-----------------
+Input Pattern     : thumbs_up
+Expected Command  : YES
+Predicted Command : YES
+Result             : Correct Association
+
+Unknown Input
+-------------
+Pattern : open_fingers
+Command : UNKNOWN
